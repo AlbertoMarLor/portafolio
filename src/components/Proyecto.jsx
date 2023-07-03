@@ -9,8 +9,8 @@ export const Proyecto = () => {
     const params = useParams();
 
     useEffect(() => {
-        let proyecto = trabajos.filter(trabajo => trabajo.id === params.id); //filtra del array de proyectos aquel que coincide con el id del params
-        setProyecto(proyecto[0])//selecciona el elemento en la primera posicion del array proyecto
+        let proyecto = trabajos.filter(trabajo => trabajo.id === params.id);
+        setProyecto(proyecto[0])
 
 
     }, []);
