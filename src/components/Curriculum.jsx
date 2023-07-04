@@ -1,7 +1,10 @@
 import React from 'react'
+import { Document, pdfjs } from "react-pdf";
 
 
 export const Curriculum = () => {
+
+
 
     const downloadPdf = () => {
         fetch('CV_ALBERTO_MARTIN_2023.pdf').then(response => {
@@ -20,11 +23,14 @@ export const Curriculum = () => {
 
 
     return (
-        <div><div className='page'>
-            <h1 className='heading'>Curriculum</h1>
+        <div>
+            <div className='page'>
 
-            <button onClick={downloadPdf}>Descargar CV</button>
 
-        </div></div>
+                <button onClick={downloadPdf}>Descargar CV</button>
+                <Document file={"https://publuu.com/flip-book/180140/443060"}></Document>
+
+            </div>
+        </div>
     )
 }
