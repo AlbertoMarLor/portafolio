@@ -11,10 +11,10 @@ import { Proyecto } from '../components/Proyecto'
 
 export const MisRutas = () => {
     return (
-        <BrowserRouter> {/* seria el equivalente al router-outlet en Angular */}
+        <BrowserRouter>
             <HeaderNav />
 
-            <section className='content'>{/* esto es la parte del medio que va cambiando */}
+            <section className='content'>
                 <Routes>
                     <Route path='/' element={<Navigate to="/inicio" />} />
                     <Route path='/inicio' element={<Inicio />} />

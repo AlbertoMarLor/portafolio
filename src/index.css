@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+
+
 .header {
   display: flex;
   justify-content: center;
@@ -87,7 +89,9 @@ code {
 
 
 .content {
-  min-height: 400px;
+  min-height: 600px;
+
+
 }
 
 .footer {
@@ -105,7 +109,7 @@ code {
 .home h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 46px;
   margin-bottom: 0px;
   margin-top: 80px;
 }
@@ -172,21 +176,27 @@ button {
 .home .title a:hover,
 input[type="submit"]:hover,
 button:hover {
-  background-color: rgb(26, 137, 26);
+  background-color: rgb(13, 76, 193);
 }
 
 .works {
+
   display: flex;
+  flex-wrap: wrap;
+
 }
 
 .work-item {
+
   flex-basis: 30%;
   flex-grow: 1;
   margin: 30px;
+  cursor: pointer;
+
 }
 
 .work-item img {
-  width: 120%;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -237,8 +247,115 @@ button:hover {
   border-top: 1px solid #ddd;
 }
 
+
+
 .page-work .mask {
-  height: 300px;
-  overflow: hidden;
+
+  height: auto;
+  width: auto;
+
   box-shadow: 0px 0px 20px #ccc;
+
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.arrow {
+  width: 190px;
+  height: 140px;
+}
+
+.oneProject {
+  width: 100%;
+}
+
+
+.h2tecno {
+  text-align: center;
+}
+
+.techs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-icons {
+  position: relative;
+  display: flex;
+  width: 190px;
+  height: 140px;
+  font-size: 4.5em;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 15px #ddd;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tech-icons :hover {
+  transition: 0.5s;
+  color: #fa4529;
+
+}
+
+.tech-icons strong {
+  position: absolute;
+  top: 110px;
+  font-size: 14px;
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cv button {
+  max-width: 10%;
+  margin: 0 auto;
+}
+
+.cv img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 30%;
+}
+
+svg {
+  cursor: pointer;
+
+}
+
+svg:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp {
+  width: 400px;
+  display: flex;
+  gap: 30px;
+
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
