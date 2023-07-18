@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 export const Gmail = () => {
     const form = useRef();
@@ -19,7 +20,14 @@ export const Gmail = () => {
         <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="user_name" placeholder='Tu nombre y/o nombre de la empresa' />
             <textarea name="message" placeholder='Escribe aquí lo que quieras' />
-            <input type="submit" value="Enviar" />
+            <input type="submit" value="Enviar" onClick={() => {
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Enviado!',
+                    text: 'Gracias por tu mensaje',
+                    confirmButtonColor: "#fa4529"
+                })
+            }} />
         </form>
     );
 };

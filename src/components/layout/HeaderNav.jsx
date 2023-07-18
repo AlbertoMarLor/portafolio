@@ -1,15 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 export const HeaderNav = () => {
     return (
         <header className='header'>
-            <div className="logo">
+            <Link to={"/inicio"} style={{ textDecoration: "none", color: "black" }} >
+                <div className="logo">
 
-                <span>A</span>
-                <h3>Alberto Martín Lorencés</h3>
-            </div>
+                    <span>A</span>
+                    <h3>Alberto Martín Lorencés</h3>
+                </div>
+            </Link>
             <nav>
                 <ul>
                     <li>
