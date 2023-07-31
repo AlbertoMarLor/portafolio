@@ -63,6 +63,21 @@ export const trabajos = [
         'categorias': 'Front-End',
         'descripcion': 'Maquetacion de una web utilizando HTML y CSS, con diseño responsive para mobile y desktop.'
     },
-
+    {
+        'id': 'blogreact',
+        'nombre': 'Blog con React y NodeJS',
+        'url': 'github.com/AlbertoMarLor/hamburgueseria-albertonline',
+        'tecnologias': ' HTML, CSS, React, NodeJS, MongoDB',
+        'categorias': 'Proyecto Full-Stack',
+        'descripcion': 'Blog realizado con React en la parte de Front-End, NodeJS en el Back-End y MongoDB como base de datos no relacional. Muestra los artículos introducidos en la base de datos, permite la creación de nuevos artículos, la edición de artículos ya existentes y el borrado de los mismos.'
+    },
+    {
+        'id': 'dragndrop',
+        'nombre': 'Editor Drag and Drop',
+        'url': 'github.com/AlbertoMarLor/hamburgueseria-albertonline',
+        'tecnologias': ' HTML, CSS, React',
+        'categorias': 'Front-End',
+        'descripcion': 'Proyecto que realicé para practicar con librerías externas de React, en este caso una que permite arrastrar y soltar elementos de distinto tipo, ya sean imágenes, textos o tablas, a una zona de la página en concreto En el header solo se permiten imágenes, en el footer sólo texto, y en el body cualquier elemento. Se pueden reordenar los elementos siempre respetando los tipos permitidos en cada zona.'
+    },
 
 ];
