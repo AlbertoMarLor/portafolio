@@ -378,6 +378,10 @@ svg:hover {
   border-radius: 0.2rem;
 }
 
+.react-pdf__Page__canvas {
+  overflow: hidden;
+}
+
 @media (max-width: 480px) {
 
   .work-item .mask {
@@ -478,4 +482,16 @@ svg:hover {
   .cv button {
     width: 35%;
   }
+
+  .contacto {
+    margin-top: 20%;
+    flex-direction: column;
+    gap: 70px
+  }
+
+  .works {
+    flex-direction: column;
+  }
+
+
 }
