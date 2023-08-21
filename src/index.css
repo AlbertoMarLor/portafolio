@@ -316,7 +316,7 @@ button:hover {
 }
 
 .cv button {
-  max-width: 10%;
+  width: 10%;
   margin: 0 auto;
 }
 
@@ -457,4 +457,25 @@ svg:hover {
     display: none !important;
   }
 
+  .home .title a {
+    padding: 1.5px;
+  }
+
+  .lenguajes {
+    margin-top: 20%;
+  }
+
+  .techs {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .cv {
+    margin-top: 20%;
+
+  }
+
+  .cv button {
+    width: 35%;
+  }
 }

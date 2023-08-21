@@ -11,7 +11,7 @@ export const Servicios = () => {
     return (
 
         <>
-            <h2 style={{ textAlign: "center" }}>Lenguajes</h2>
+            <h2 className="lenguajes" style={{ textAlign: "center" }}>Lenguajes</h2>
             <div className="techs">
 
                 <div className="tech-icons" >
@@ -39,11 +39,11 @@ export const Servicios = () => {
                     <strong>CSS</strong>
                 </div>
 
-                <div className="tech-icons">
+                {/* <div className="tech-icons">
 
                     <PiFileSqlDuotone />
                     <strong>SQL</strong>
-                </div>
+                </div> */}
 
             </div>
 
@@ -71,11 +71,11 @@ export const Servicios = () => {
                     <strong>ExpressJS</strong>
                 </div>
 
-                <div className="tech-icons">
+                {/* <div className="tech-icons">
 
                     <SiWebcomponentsdotorg />
                     <strong>WebComponents</strong>
-                </div>
+                </div> */}
 
                 <div className="tech-icons">
 
@@ -120,11 +120,11 @@ export const Servicios = () => {
                     <SiSourcetree />
                     <strong>SourceTree</strong>
                 </div>
-                <div className="tech-icons">
+                {/* <div className="tech-icons">
 
                     <SiFirebase />
                     <strong>Firebase</strong>
-                </div>
+                </div> */}
                 <div className="tech-icons">
 
                     <SiRender />
