@@ -23,9 +23,14 @@ export const Curriculum = () => {
 
     return (
         <div className='cv'>
-            <button onClick={downloadPdf}>Descargar CV</button>
+
+            <button className='descargar' onClick={downloadPdf}>Descargar CV</button>
+
             <img src={cv} />
-            <button onClick={downloadPdf}>Descargar CV</button>
+
+            <button className='descargar' onClick={downloadPdf}>Descargar CV</button>
+
+
         </div>
     )
 }
