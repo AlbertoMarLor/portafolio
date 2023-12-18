@@ -217,9 +217,7 @@ button:hover {
 }
 
 .work-item .mask img:hover {
-  width: 150%;
-  margin-right: 30%;
-
+  transform: scale(1.15);
 }
 
 .work-item span {
@@ -390,6 +388,34 @@ svg:hover {
   overflow: hidden;
 }
 
+
+.carousel.img {
+  width: 90%;
+  margin: 30px auto 15px auto;
+  border-radius: 10px;
+
+}
+
+.carousel.link {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel.h3 {
+  color: grey;
+}
+
+.demo {
+  display: flex;
+  gap: 60px;
+}
+
+.demo a {
+  color: #fa4529;
+  text-decoration: none;
+  line-height: 7px;
+}
+
 @media (max-width: 480px) {
 
   .work-item .mask {
@@ -507,6 +533,10 @@ svg:hover {
 
   .foot {
     flex-direction: column;
+  }
+
+  .carousel.img {
+    width: 100%;
   }
 
 }

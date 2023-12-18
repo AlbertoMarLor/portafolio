@@ -1,19 +1,19 @@
 import React from 'react'
-import cv from "./../assets/images/fotoCv.png"
+import cv from "./../assets/images/cv.png"
 
 
 
 export const Curriculum = () => {
 
     const downloadPdf = () => {
-        fetch('CV_ALBERTO_MARTIN_2023.pdf').then(response => {
+        fetch('CV_ALBERTO_MARTIN_2024.pdf').then(response => {
             response.blob().then(blob => {
 
                 const fileURL = window.URL.createObjectURL(blob);
 
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'CV_ALBERTO_MARTIN_2023.pdf';
+                alink.download = 'CV_ALBERTO_MARTIN_2024.pdf';
                 alink.click();
             })
         })

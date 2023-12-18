@@ -29,7 +29,14 @@ export const Proyecto = () => {
                         <strong >{proyecto.tecnologias}</strong>
                     </div>
                     <p>{proyecto.descripcion}</p>
-                    <a href={"https://" + proyecto.url} target='_blank'><SiGithub style={{ width: "50px", height: "50px", color: 'black' }} /></a>
+                    <div className='demo'>
+                        <a href={"https://" + proyecto.url} target='_blank'><SiGithub style={{ width: "50px", height: "50px", color: 'black' }} /></a>
+                        {proyecto.demo &&
+                            <a className='demo' href={proyecto.demo} target='_blank'><h2 >¡Quiero verlo!</h2></a>
+                        }
+                    </div>
+
+
                 </div>
                 <div className="projects">
                     <div className='mask'>

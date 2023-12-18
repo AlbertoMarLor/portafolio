@@ -10,7 +10,7 @@ export const ListadoTrabajos = ({ limite }) => {
 
         <section className='works'>
             {
-                trabajos.slice(0, limite).map(trabajo => {
+                trabajos.map(trabajo => {
                     return (
                         <article key={trabajo.id} className='work-item'>
                             <Link to={"/proyecto/" + trabajo.id}>

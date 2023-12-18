@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ListadoTrabajos } from './ListadoTrabajos'
+import { CarruselTrabajos } from './CarruselTrabajos'
 
 export const Inicio = () => {
     return (
@@ -13,9 +13,9 @@ export const Inicio = () => {
 
             <section className='lasts-works'>
                 <h2 className='heading'>Mis proyectos</h2>
-                <p>Estos son algunos de mis trabajos de desarrollo web.</p>
+                <p>Estos son mis trabajos de desarrollo web.</p>
 
-                <ListadoTrabajos limite="2" />
+                <CarruselTrabajos />
             </section>
 
         </div>
