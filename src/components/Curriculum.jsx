@@ -6,7 +6,7 @@ import cv from "./../assets/images/cv.png"
 export const Curriculum = () => {
 
     const downloadPdf = () => {
-        fetch('CV_ALBERTO_MARTIN_2024.pdf').then(response => {
+        fetch('./../CV_ALBERTO_MARTIN_2024.pdf').then(response => {
             response.blob().then(blob => {
 
                 const fileURL = window.URL.createObjectURL(blob);
