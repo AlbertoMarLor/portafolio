@@ -24,14 +24,7 @@ export const trabajos = [
         'categorias': 'Proyecto Full Stack',
         'descripcion': 'Aplicación de gestión de gastos para grupos, ya sean familiares, amigos, compañeros de piso o del trabajo, e incluso llevar las cuentas de gastos a repartir entre los trabajadores de una empresa. La aplicación realiza por sí sola el reparto y la división entre todos los miembros que forman parte del grupo.'
     },
-    {
-        'id': 'portafolio',
-        'nombre': 'Portafolio',
-        'url': 'github.com/AlbertoMarLor/portafolio',
-        'tecnologias': 'React, HTML, CSS',
-        'categorias': 'Front-End',
-        'descripcion': 'El portafolio que estás viendo ahora mismo, realizado con React'
-    },
+
     {
         'id': 'blogangular',
         'nombre': 'Blog en Angular',
@@ -81,7 +74,7 @@ export const trabajos = [
         'url': 'github.com/AlbertoMarLor/spotify',
         'tecnologias': 'HTML, CSS',
         'categorias': 'Front-End',
-        'descripcion': 'Landing page de Spotify hecha con HTML y CSS, con diseño responsibe para mobile y desktop.'
+        'descripcion': 'Clon de la landing page de Spotify hecha con HTML y CSS, con diseño responsibe para mobile y desktop.'
     },
     {
         'id': 'hambur',
